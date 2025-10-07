@@ -1,0 +1,16 @@
+[project]
+name = "av-pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=11.3.0",
+    "pymupdf>=1.26.3",
+    "screeninfo>=0.8.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.15.0",
+]
